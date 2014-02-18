@@ -12,13 +12,14 @@ $.id = (id) ->
   document.getElementById(id)
 
 $.hasChild = (parent, el) ->
-  loop
+  return unless parent
+  while el
     return true if el is parent
     return if el is document.body
     el = el.parentElement
 
 $.closestLink = (el, parent = document.body) ->
-  loop
+  while el
     return el if el.tagName is 'A'
     return if el is parent
     el = el.parentElement
@@ -259,6 +260,9 @@ ESCAPE_REGEXP = /([.*+?^=!:${}()|\[\]\/\\])/g
 
 $.escapeRegexp = (string) ->
   string.replace ESCAPE_REGEXP, "\\$1"
+
+$.urlDecode = (string) ->
+  decodeURIComponent string.replace(/\+/g, '%20')
 
 #
 # Miscellaneous

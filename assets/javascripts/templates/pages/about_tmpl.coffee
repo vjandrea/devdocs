@@ -75,17 +75,17 @@ app.templates.aboutPage = -> """
 
 credits = [
   [ 'Angular.js',
-    '2010-2013 Google, Inc.',
+    '2010-2014 Google, Inc.',
     'CC BY',
     'http://creativecommons.org/licenses/by/3.0/'
   ], [
     'Backbone.js',
-    '2010-2013 Jeremy Ashkenas, DocumentCloud',
+    '2010-2014 Jeremy Ashkenas, DocumentCloud',
     'MIT',
     'https://raw.github.com/jashkenas/backbone/master/LICENSE'
   ], [
     'CoffeeScript',
-    '2009-2013 Jeremy Ashkenas',
+    '2009-2014 Jeremy Ashkenas',
     'MIT',
     'https://raw.github.com/jashkenas/coffee-script/master/LICENSE'
   ], [
@@ -105,7 +105,7 @@ credits = [
     'https://raw.github.com/emberjs/ember.js/master/LICENSE'
   ], [
     'Git',
-    '2005-2013 Linus Torvalds and others',
+    '2005-2014 Linus Torvalds and others',
     'GPLv2',
     'https://raw.github.com/git/git/master/COPYING'
   ], [
@@ -135,14 +135,19 @@ credits = [
     'https://raw.github.com/knockout/knockout/master/LICENSE'
   ], [
     'Less',
-    '2009-2014 Alexis Sellier &amp; The Core Less Team',
-    'Apache v2',
-    'https://raw.github.com/less/less.js/master/LICENSE'
+    '2009-2014 The Core Less Team',
+    'CC BY',
+    'http://creativecommons.org/licenses/by/3.0/'
   ], [
     'Lo-Dash',
     '2009-2013 The Dojo Foundation',
     'MIT',
     'https://raw.github.com/lodash/lodash/master/LICENSE.txt'
+  ], [
+    'Moment.js',
+    '2011-2014 Tim Wood, Iskren Chernev, Moment.js contributors',
+    'MIT',
+    'https://raw.github.com/moment/moment/master/LICENSE'
   ], [
     'Node.js',
     'Joyent, Inc. and other Node contributors<br>Node.js is a trademark of Joyent, Inc.',
@@ -185,7 +190,7 @@ credits = [
     'https://raw.github.com/nex3/sass/master/MIT-LICENSE'
   ], [
     'Underscore.js',
-    '2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors',
+    '2009-2014 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors',
     'MIT',
     'https://raw.github.com/jashkenas/underscore/master/LICENSE'
   ]

@@ -24,15 +24,24 @@ newsItem = (date, news) ->
   result
 
 app.news = [
-  [ 1390089600001, # January 19, 2013
+  [ 1392508800000, # February 16, 2013
+    """ New <a href="/moment/">Moment.js</a> documentation """,
+  ], [
+    1392163200000, # February 12, 2013
+    """ The root/category pages are now included in the search index (e.g. <a href="/#q=CSS">CSS</a>) """,
+  ], [
+    1390694400000, # January 26, 2013
+    """ Updated <a href="/angular/">Angular.js</a> documentation """,
+  ], [
+    1390089600000, # January 19, 2013
     """ New <a href="/d3/">D3.js</a> and <a href="/knockout/">Knockout.js</a> documentations """,
   ], [
     1390003200000, # January 18, 2013
     """ DevDocs is now available as a <a href="https://marketplace.firefox.com/app/devdocs/">Firefox web app</a> (currently requires Aurora). """,
   ], [
     1389484800000, # January 12, 2013
-    """ Added <code class="_label">Alt + g</code> shortcut for searching on Google. """,
-    """ Added <code class="_label">Alt + r</code> shortcut for revealing the current page in the sidebar. """
+    """ Added <code class="_label">alt + g</code> shortcut for searching on Google. """,
+    """ Added <code class="_label">alt + r</code> shortcut for revealing the current page in the sidebar. """
   ], [
     1386979200000, # December 14, 2013
     """ New <a href="/postgresql/">PostgreSQL</a> documentation """
