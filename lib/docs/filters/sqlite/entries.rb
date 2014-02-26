@@ -1,7 +1,7 @@
 module Docs
-  class Laravel
+  class Sqlite
     class EntriesFilter < Docs::EntriesFilter
-
+    	
     end
   end
 end

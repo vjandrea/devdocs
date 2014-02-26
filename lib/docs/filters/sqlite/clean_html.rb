@@ -1,5 +1,5 @@
 module Docs
-  class Laravel
+  class Sqlite
     class CleanHtmlFilter < Filter
       def call
         doc
