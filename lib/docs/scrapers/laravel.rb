@@ -12,6 +12,9 @@ module Docs
       url.sub! '/docs/api/api/', '/partials/api/'
     end
 
+    # Remove the Introduction repeated several times
+    options[:skip] = ['/introduction', '/api/4.1', '/api']
+
     options[:attribution] = "&copy; Taylor Otwell"
   end
 end
