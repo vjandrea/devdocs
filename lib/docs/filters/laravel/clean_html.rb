@@ -1,5 +1,5 @@
 module Docs
-  class Less
+  class Laravel
     class CleanHtmlFilter < Filter
       def call
         doc

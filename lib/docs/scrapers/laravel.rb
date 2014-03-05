@@ -1,5 +1,6 @@
 module Docs
-  class Laravel < UrlScraper
+#  class Laravel < UrlScraper
+  class Laravel < FileScraper
     self.name = 'Laravel'
     self.slug = 'laravel'
     self.type = 'laravel'
