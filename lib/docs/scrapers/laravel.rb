@@ -1,6 +1,5 @@
 module Docs
-#  class Laravel < UrlScraper
-  class Laravel < FileScraper
+  class Laravel < UrlScraper
     self.name = 'Laravel'
     self.slug = 'laravel'
     self.type = 'laravel'
@@ -9,6 +8,10 @@ module Docs
 
     html_filters.push 'laravel/clean_html', 'laravel/entries'
 
+    options[:fix_urls] = ->(url) do
+      url.sub! '/docs/api/api/', '/partials/api/'
+    end
+    
     options[:attribution] = "&copy; Taylor Otwell"
   end
 end
