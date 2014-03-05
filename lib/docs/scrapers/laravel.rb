@@ -11,7 +11,7 @@ module Docs
     options[:fix_urls] = ->(url) do
       url.sub! '/docs/api/api/', '/partials/api/'
     end
-    
+
     options[:attribution] = "&copy; Taylor Otwell"
   end
 end
