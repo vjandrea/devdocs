@@ -13,7 +13,7 @@ module Docs
     end
 
     # Remove the Introduction repeated several times
-    options[:skip] = ['/introduction', '/api/4.1', '/api']
+    options[:skip] = ['/introduction', '/api/4.1', '/api', '/releases', '/upgrade']
 
     options[:attribution] = "&copy; Taylor Otwell"
   end
