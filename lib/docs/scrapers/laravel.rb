@@ -8,11 +8,12 @@ module Docs
 
     html_filters.push 'laravel/clean_html', 'laravel/entries'
 
+    # Fix a loop into API documentation
     options[:fix_urls] = ->(url) do
-      url.sub! '/docs/api/api/', '/partials/api/'
+      url.sub! '/docs/api/api/', '/docs/api/'
     end
 
-    # Remove the Introduction repeated several times
+    # Remove the Introduction repeated several times, release history and upgrade guide
     options[:skip] = ['/introduction', '/api/4.1', '/api', '/releases', '/upgrade']
 
     options[:attribution] = "&copy; Taylor Otwell"
